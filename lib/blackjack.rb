@@ -71,5 +71,6 @@ def runner
   if num > 21
   end_game
 end
+num
 end
 end
