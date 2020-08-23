@@ -62,14 +62,16 @@ def invalid_command
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner 
+   num = initial_round
    
   welcome
   while num <21 do 
   num = initial_round
   hit? (num)
-  if num >21
+  if num > 21
   end_game
 end
+num
 end
 end
