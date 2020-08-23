@@ -62,8 +62,8 @@ def invalid_command
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner (num)
-   
+def runner 
+   num = initial_round
   welcome
   while num <21 do 
   num = initial_round
