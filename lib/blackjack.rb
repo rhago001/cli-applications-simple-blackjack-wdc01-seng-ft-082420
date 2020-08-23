@@ -68,7 +68,7 @@ def runner
   while num <21 do 
   num = initial_round
   hit? (num)
-else
+  if num > 21
   end_game
 end
 end
