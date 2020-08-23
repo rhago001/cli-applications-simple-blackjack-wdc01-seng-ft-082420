@@ -64,6 +64,7 @@ def invalid_command
 
 def runner 
    num = initial_round
+   
   welcome
   while num <21 do 
   num = initial_round
