@@ -62,7 +62,7 @@ def invalid_command
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner (num)
    
   welcome
   while num <21 do 
